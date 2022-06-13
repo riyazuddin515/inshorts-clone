@@ -1,0 +1,28 @@
+.footer{
+    height: 200px;
+    background-color: #323232;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    margin: 20px auto;
+}
+.brand-icons{
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer a:link,
+.footer a:hover,
+.footer a:visited,
+.footer a:active{
+    color: white;
+}
